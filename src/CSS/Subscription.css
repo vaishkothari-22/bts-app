@@ -1,0 +1,8 @@
+/* YourStyleSheet.css */
+
+/* Add this style in your CSS file */
+
+.card-container:hover h1 {
+    color: red; /* Change the color to your desired hover effect */
+  }
+  

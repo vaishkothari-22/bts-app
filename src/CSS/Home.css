@@ -1,0 +1,35 @@
+/* styles.css */
+
+.featurette {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .featurette .featurette-heading {
+    font-size: 40px;
+  }
+  
+  .featurette p {
+    font-size: 18px;
+  }
+  
+  .featurette-image {
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featurette:nth-child(odd) .col-md-7 {
+    order: 2;
+  }
+  
+  .featurette:nth-child(odd) .col-md-5 {
+    order: 1;
+  }
+  
+  .featurette:nth-child(even) .col-md-7 {
+    order: 1;
+  }
+  
+  .featurette:nth-child(even) .col-md-5 {
+    order: 2;
+  }
